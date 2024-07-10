@@ -1,0 +1,29 @@
+{
+    "name": "turtle",
+    "version": "1.7.0",
+    "author": "FantaLaTone",
+    "description": "{Turtle} is a bot for Turtle In The Circle Discord.",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "dev": "nodemon main.js",
+        "replit-node-update": "npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH",
+        "replit-node-clean": "rm -rf node_modules && rm package-lock.json && npm cache clear --force && npm cache clean --force && npm i",
+        "replit-setup": "npm run replit-node-update && npm run replit-node-clean"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@discordjs/builders": "^0.12.0",
+        "@discordjs/opus": "^0.7.0",
+        "@discordjs/rest": "^0.3.0",
+        "canvas": "^2.9.0",
+        "combine-image": "^1.0.3",
+        "discord-api-types": "^0.27.2",
+        "discord-player": "^5.2.2",
+        "discord.js": "^13.6.0",
+        "dotenv": "^15.0.0",
+        "ffmpeg-static": "^4.4.1",
+        "googleapis": "^95.0.0",
+        "node-fetch": "^2.6.1"
+    }
+}

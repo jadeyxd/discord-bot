@@ -1,0 +1,14 @@
+{
+    "change_version": "1.7.0",
+    "change_title": "İçerik Güncellemesi ve Bug Fix",
+    "changes": [
+        "!la komutunda çok büyük update",
+        "google spreadsheet desteği",
+        "!oy bug fix",
+        "!cal invalid fix",
+        "messageEvent bug fix",
+        "README.md eklendi github sayfasına",
+        "https://github.com/fantalatone/turtle-dc-bot",
+        "gereksiz fontlar sistemden silindi"
+    ]
+}
